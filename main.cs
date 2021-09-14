@@ -8,34 +8,34 @@ class Program {
     double sales = Convert.ToDouble(Console.ReadLine());
     double commission = (200 + .09 * sales);
     Console.WriteLine("Sales commission for " + name + " is $" + commission);
-    if(commission > 15000)
+    if(sales > 15000)
       {
         Console.WriteLine("Performance is outstanding!");
       }
-    if(commission >= 10000)
+    if(sales >= 10000)
       {
-        if(14999 >= commission)
+        if(14999 >= sales)
         {
           Console.WriteLine("Performance is excellent.");
         }
       }
-      if(commission >= 5000)
+      if(sales >= 5000)
       {
-        if(9999 >= commission)
+        if(9999 >= sales)
         {
           Console.WriteLine("Performance is good.");
         }
       }
-       if(commission >= 3000)
+       if(sales >= 3000)
       {
-        if(4999 >= commission)
+        if(4999 >= sales)
         {
           Console.WriteLine("Performance is average.");
         }
       }
-       if(commission >= 0)
+       if(sales >= 0)
       {
-        if(2999 >= commission)
+        if(2999 >= sales)
         {
           Console.WriteLine("Performance is poor.");
         }
